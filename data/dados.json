@@ -1,0 +1,1419 @@
+{
+ "atualizado_em": "2026-11-20",
+ "fontes": [
+  {
+   "id": "pulso12",
+   "titulo": "Pesquisa Pulso dos Pequenos Negócios – 12ª edição",
+   "orgao": "Sebrae",
+   "data": "2026-04-16",
+   "campo": "fev–mar/2026, 8,2 mil empreendedores",
+   "url": "https://agenciasebrae.com.br/dados/whatsapp-se-consolida-nas-vendas-on-line-enquanto-facebook-e-lojas-proprias-perdem-folego/"
+  },
+  {
+   "id": "ds_serie",
+   "titulo": "DataSebrae – Transformação Digital (série histórica e canais, planilha oficial)",
+   "orgao": "Sebrae/Google",
+   "data": "2026-03-01",
+   "campo": "Impacto da Pandemia (até mai/22) e Pulso (a partir de ago/22)",
+   "url": "https://datasebrae.com.br/wp-content/uploads/2026/07/grafico-terceiro-slide.xlsx"
+  },
+  {
+   "id": "datasebrae_td",
+   "titulo": "DataSebrae – Transformação Digital (painel)",
+   "orgao": "Sebrae",
+   "data": "2026-04-14",
+   "campo": "Últimos dados disponíveis",
+   "url": "https://datasebrae.com.br/transformacao-digital/"
+  },
+  {
+   "id": "imd2026",
+   "titulo": "Pesquisa Maturidade Digital dos Pequenos Negócios (IMD) 2026",
+   "orgao": "Sebrae",
+   "data": "2026-08-01",
+   "campo": "20/jul–21/ago/2026, 7.182 entrevistas (MEI, ME, EPP)",
+   "url": "https://datasebrae.com.br/wp-content/uploads/2026/09/Relatorio-Completo-da-Pesquisa-2026.pdf"
+  },
+  {
+   "id": "ia2025",
+   "titulo": "Sondagem Econômica MEI e MPE – Uso de IA nos negócios",
+   "orgao": "Sebrae/FGV/Google",
+   "data": "2025-11-30",
+   "campo": "set/2025, ~5.000 empresas",
+   "url": "https://datasebrae.com.br/wp-content/uploads/2026/01/Uso-de-IA-nos-negocios-2025-1.pdf"
+  },
+  {
+   "id": "persp2026",
+   "titulo": "Perspectivas Digitais nos Negócios",
+   "orgao": "Sebrae/FGV",
+   "data": "2026-04-15",
+   "campo": "02–31/mar/2026, 4.967 respostas",
+   "url": "https://datasebrae.com.br/wp-content/uploads/2026/07/Perspectivas-Digitais-nos-PN-2026-v2.pdf"
+  },
+  {
+   "id": "td2025",
+   "titulo": "Digitalização recorde: pequenos negócios atingem nível histórico em 2025",
+   "orgao": "Sebrae (ASN)",
+   "data": "2025-06-23",
+   "campo": "Pesquisa Transformação Digital 2025",
+   "url": "https://agenciasebrae.com.br/inovacao-e-tecnologia/digitalizacao-recorde-pequenos-negocios-no-brasil-atingem-nivel-historico-em-2025/"
+  },
+  {
+   "id": "td2026",
+   "titulo": "Transformação Digital nos Pequenos Negócios (2026) – Brasil x EUA",
+   "orgao": "Sebrae",
+   "data": "2026-05-08",
+   "campo": "24/mar–08/mai/2026, 7.182 entrevistas, erro 1,2 p.p.",
+   "url": "https://datasebrae.com.br/wp-content/uploads/2026/08/4-Relatorio-Completo-v2.pdf"
+  },
+  {
+   "id": "td2022",
+   "titulo": "Inclusão digital já chegou a 100% dos pequenos negócios (Transformação Digital 2022)",
+   "orgao": "Sebrae (ASN)",
+   "data": "2023-03-14",
+   "campo": "25/jul–27/set/2022, 6.345 empreendedores",
+   "url": "https://agenciasebrae.com.br/dados/inclusao-digital-ja-chegou-a-100-dos-pequenos-negocios-no-pais/"
+  },
+  {
+   "id": "td2023",
+   "titulo": "Sete em cada 10 pequenos negócios têm perfis nas redes sociais",
+   "orgao": "Sebrae (ASN)",
+   "data": "2023-12-19",
+   "campo": "Transformação Digital nos Pequenos Negócios 2023",
+   "url": "https://agenciasebrae.com.br/dados/sete-em-cada-10-pequenos-negocios-tem-perfis-nas-redes-sociais-instagram-e-a-plataforma-preferida/"
+  },
+  {
+   "id": "mulheres2026",
+   "titulo": "Mais de 10 milhões de mulheres lideram pequenos negócios",
+   "orgao": "Sebrae (ASN), a partir da PNAD Contínua/IBGE",
+   "data": "2026-11-19",
+   "campo": "PNAD Contínua; Receita Federal (CNPJ 2025)",
+   "url": "https://agenciasebrae.com.br/dados/mais-de-10-milhoes-de-mulheres-lideram-pequenos-negocios-com-avancos-em-formalizacao-e-escolaridade/"
+  },
+  {
+   "id": "martins2024",
+   "titulo": "MARTINS, M. R. et al. Empreendedorismo digital: tendências e gaps de pesquisa. Rev. Gestão e Desenvolvimento, v. 21, n. 2, 2024.",
+   "orgao": "Literatura acadêmica",
+   "data": "2024-01-01",
+   "campo": "Revisão bibliométrica",
+   "url": "https://doi.org/10.25112/rgd.v21i2.3724"
+  },
+  {
+   "id": "costa2022",
+   "titulo": "COSTA, L.; MUNHOZ, I.; PEREIRA, L. Assessing the digital maturity of micro and small enterprises. Procedia Computer Science, v. 200, p. 175-184, 2022.",
+   "orgao": "Literatura acadêmica",
+   "data": "2022-01-01",
+   "campo": "Artigo",
+   "url": "https://doi.org/10.1016/j.procs.2022.01.216"
+  }
+ ],
+ "serie_vendas_online": [
+  {
+   "data": "2020-05",
+   "rotulo": "mai/20",
+   "valor": 59,
+   "fonte": "ds_serie"
+  },
+  {
+   "data": "2020-06",
+   "rotulo": "jun/20",
+   "valor": 64,
+   "fonte": "ds_serie"
+  },
+  {
+   "data": "2020-07",
+   "rotulo": "jul/20",
+   "valor": 66,
+   "fonte": "ds_serie"
+  },
+  {
+   "data": "2020-08",
+   "rotulo": "ago/20",
+   "valor": 67,
+   "fonte": "ds_serie"
+  },
+  {
+   "data": "2020-11",
+   "rotulo": "nov/20",
+   "valor": 70,
+   "fonte": "ds_serie"
+  },
+  {
+   "data": "2021-03",
+   "rotulo": "mar/21",
+   "valor": 69,
+   "fonte": "ds_serie"
+  },
+  {
+   "data": "2021-06",
+   "rotulo": "jun/21",
+   "valor": 67,
+   "fonte": "ds_serie"
+  },
+  {
+   "data": "2021-12",
+   "rotulo": "dez/21",
+   "valor": 74,
+   "fonte": "ds_serie"
+  },
+  {
+   "data": "2022-05",
+   "rotulo": "mai/22",
+   "valor": 71,
+   "fonte": "ds_serie"
+  },
+  {
+   "data": "2022-08",
+   "rotulo": "ago/22",
+   "valor": 73,
+   "fonte": "ds_serie"
+  },
+  {
+   "data": "2023-01",
+   "rotulo": "jan/23",
+   "valor": 71,
+   "fonte": "ds_serie"
+  },
+  {
+   "data": "2023-04",
+   "rotulo": "abr/23",
+   "valor": 69,
+   "fonte": "ds_serie"
+  },
+  {
+   "data": "2023-07",
+   "rotulo": "jul/23",
+   "valor": 75,
+   "fonte": "ds_serie"
+  },
+  {
+   "data": "2023-11",
+   "rotulo": "nov/23",
+   "valor": 72,
+   "fonte": "ds_serie"
+  },
+  {
+   "data": "2024-02",
+   "rotulo": "fev/24",
+   "valor": 70,
+   "fonte": "ds_serie"
+  },
+  {
+   "data": "2024-11",
+   "rotulo": "nov/24",
+   "valor": 72,
+   "fonte": "ds_serie"
+  },
+  {
+   "data": "2026-03",
+   "rotulo": "mar/26",
+   "valor": 73,
+   "fonte": "ds_serie"
+  }
+ ],
+ "edicoes_canais": [
+  {
+   "data": "2021-11",
+   "rotulo": "nov/21",
+   "pesquisa": "13ª Impacto da Pandemia"
+  },
+  {
+   "data": "2023-01",
+   "rotulo": "jan/23",
+   "pesquisa": "2ª Pulso"
+  },
+  {
+   "data": "2024-11",
+   "rotulo": "nov/24",
+   "pesquisa": "9ª Pulso"
+  },
+  {
+   "data": "2026-03",
+   "rotulo": "mar/26",
+   "pesquisa": "12ª Pulso"
+  }
+ ],
+ "canais_venda": [
+  {
+   "canal": "WhatsApp",
+   "tipo": "rede",
+   "data": "2021-11",
+   "valor": 84,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "WhatsApp",
+   "tipo": "rede",
+   "data": "2023-01",
+   "valor": 82,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "WhatsApp",
+   "tipo": "rede",
+   "data": "2024-11",
+   "valor": 81,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "WhatsApp",
+   "tipo": "rede",
+   "data": "2026-03",
+   "valor": 82,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "Instagram",
+   "tipo": "rede",
+   "data": "2021-11",
+   "valor": 51,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "Instagram",
+   "tipo": "rede",
+   "data": "2023-01",
+   "valor": 57,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "Instagram",
+   "tipo": "rede",
+   "data": "2024-11",
+   "valor": 60,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "Instagram",
+   "tipo": "rede",
+   "data": "2026-03",
+   "valor": 57,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "Facebook",
+   "tipo": "rede",
+   "data": "2021-11",
+   "valor": 42,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "Facebook",
+   "tipo": "rede",
+   "data": "2023-01",
+   "valor": 40,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "Facebook",
+   "tipo": "rede",
+   "data": "2024-11",
+   "valor": 34,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "Facebook",
+   "tipo": "rede",
+   "data": "2026-03",
+   "valor": 30,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "Loja virtual própria",
+   "tipo": "loja",
+   "data": "2021-11",
+   "valor": 14,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "Loja virtual própria",
+   "tipo": "loja",
+   "data": "2023-01",
+   "valor": 11,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "Loja virtual própria",
+   "tipo": "loja",
+   "data": "2024-11",
+   "valor": 13,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "Loja virtual própria",
+   "tipo": "loja",
+   "data": "2026-03",
+   "valor": 10,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "Mercado Livre",
+   "tipo": "marketplace",
+   "data": "2021-11",
+   "valor": 7,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "Mercado Livre",
+   "tipo": "marketplace",
+   "data": "2023-01",
+   "valor": 6,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "Mercado Livre",
+   "tipo": "marketplace",
+   "data": "2024-11",
+   "valor": 8,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "Mercado Livre",
+   "tipo": "marketplace",
+   "data": "2026-03",
+   "valor": 7,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "Apps de entrega/serviços",
+   "tipo": "app",
+   "data": "2021-11",
+   "valor": 6,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "Apps de entrega/serviços",
+   "tipo": "app",
+   "data": "2023-01",
+   "valor": 7,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "Apps de entrega/serviços",
+   "tipo": "app",
+   "data": "2024-11",
+   "valor": 6,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "Apps de entrega/serviços",
+   "tipo": "app",
+   "data": "2026-03",
+   "valor": 7,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "OLX",
+   "tipo": "marketplace",
+   "data": "2021-11",
+   "valor": 5,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "OLX",
+   "tipo": "marketplace",
+   "data": "2023-01",
+   "valor": 4,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "OLX",
+   "tipo": "marketplace",
+   "data": "2024-11",
+   "valor": 4,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "OLX",
+   "tipo": "marketplace",
+   "data": "2026-03",
+   "valor": 3,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "Magalu",
+   "tipo": "marketplace",
+   "data": "2021-11",
+   "valor": 3,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "Magalu",
+   "tipo": "marketplace",
+   "data": "2023-01",
+   "valor": 2,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "Magalu",
+   "tipo": "marketplace",
+   "data": "2024-11",
+   "valor": 3,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "Magalu",
+   "tipo": "marketplace",
+   "data": "2026-03",
+   "valor": 1,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "Amazon",
+   "tipo": "marketplace",
+   "data": "2021-11",
+   "valor": 1,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "Amazon",
+   "tipo": "marketplace",
+   "data": "2023-01",
+   "valor": 1,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "Amazon",
+   "tipo": "marketplace",
+   "data": "2024-11",
+   "valor": 2,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "Amazon",
+   "tipo": "marketplace",
+   "data": "2026-03",
+   "valor": 1,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "Americanas",
+   "tipo": "marketplace",
+   "data": "2021-11",
+   "valor": 1,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "Americanas",
+   "tipo": "marketplace",
+   "data": "2023-01",
+   "valor": 1,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "Americanas",
+   "tipo": "marketplace",
+   "data": "2024-11",
+   "valor": 1,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "Americanas",
+   "tipo": "marketplace",
+   "data": "2026-03",
+   "valor": 0,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "Nenhum dos citados",
+   "tipo": "nenhum",
+   "data": "2021-11",
+   "valor": 10,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "Nenhum dos citados",
+   "tipo": "nenhum",
+   "data": "2023-01",
+   "valor": 6,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "Nenhum dos citados",
+   "tipo": "nenhum",
+   "data": "2024-11",
+   "valor": 7,
+   "fonte": "ds_serie"
+  },
+  {
+   "canal": "Nenhum dos citados",
+   "tipo": "nenhum",
+   "data": "2026-03",
+   "valor": 6,
+   "fonte": "ds_serie"
+  }
+ ],
+ "imd_porte": [
+  {
+   "ano": 2024,
+   "porte": "PN",
+   "pontos": 35,
+   "fonte": "imd2026"
+  },
+  {
+   "ano": 2024,
+   "porte": "MEI",
+   "pontos": 31,
+   "fonte": "imd2026"
+  },
+  {
+   "ano": 2024,
+   "porte": "ME",
+   "pontos": 40,
+   "fonte": "imd2026"
+  },
+  {
+   "ano": 2024,
+   "porte": "EPP",
+   "pontos": 42,
+   "fonte": "imd2026"
+  },
+  {
+   "ano": 2025,
+   "porte": "PN",
+   "pontos": 37,
+   "fonte": "imd2026"
+  },
+  {
+   "ano": 2025,
+   "porte": "MEI",
+   "pontos": 33,
+   "fonte": "imd2026"
+  },
+  {
+   "ano": 2025,
+   "porte": "ME",
+   "pontos": 41,
+   "fonte": "imd2026"
+  },
+  {
+   "ano": 2025,
+   "porte": "EPP",
+   "pontos": 44,
+   "fonte": "imd2026"
+  },
+  {
+   "ano": 2026,
+   "porte": "PN",
+   "pontos": 39,
+   "fonte": "imd2026"
+  },
+  {
+   "ano": 2026,
+   "porte": "MEI",
+   "pontos": 35,
+   "fonte": "imd2026"
+  },
+  {
+   "ano": 2026,
+   "porte": "ME",
+   "pontos": 43,
+   "fonte": "imd2026"
+  },
+  {
+   "ano": 2026,
+   "porte": "EPP",
+   "pontos": 46,
+   "fonte": "imd2026"
+  }
+ ],
+ "imd_uf": [
+  {
+   "uf": "PE",
+   "regiao": "Nordeste",
+   "pontos": 33.8,
+   "ano": 2026,
+   "fonte": "imd2026"
+  },
+  {
+   "uf": "AC",
+   "regiao": "Norte",
+   "pontos": 34.6,
+   "ano": 2026,
+   "fonte": "imd2026"
+  },
+  {
+   "uf": "ES",
+   "regiao": "Sudeste",
+   "pontos": 35.7,
+   "ano": 2026,
+   "fonte": "imd2026"
+  },
+  {
+   "uf": "PB",
+   "regiao": "Nordeste",
+   "pontos": 35.9,
+   "ano": 2026,
+   "fonte": "imd2026"
+  },
+  {
+   "uf": "PA",
+   "regiao": "Norte",
+   "pontos": 36.3,
+   "ano": 2026,
+   "fonte": "imd2026"
+  },
+  {
+   "uf": "PI",
+   "regiao": "Nordeste",
+   "pontos": 36.5,
+   "ano": 2026,
+   "fonte": "imd2026"
+  },
+  {
+   "uf": "DF",
+   "regiao": "Centro-Oeste",
+   "pontos": 36.9,
+   "ano": 2026,
+   "fonte": "imd2026"
+  },
+  {
+   "uf": "BA",
+   "regiao": "Nordeste",
+   "pontos": 37.0,
+   "ano": 2026,
+   "fonte": "imd2026"
+  },
+  {
+   "uf": "RR",
+   "regiao": "Norte",
+   "pontos": 37.4,
+   "ano": 2026,
+   "fonte": "imd2026"
+  },
+  {
+   "uf": "MT",
+   "regiao": "Centro-Oeste",
+   "pontos": 37.5,
+   "ano": 2026,
+   "fonte": "imd2026"
+  },
+  {
+   "uf": "RJ",
+   "regiao": "Sudeste",
+   "pontos": 37.7,
+   "ano": 2026,
+   "fonte": "imd2026"
+  },
+  {
+   "uf": "RS",
+   "regiao": "Sul",
+   "pontos": 37.8,
+   "ano": 2026,
+   "fonte": "imd2026"
+  },
+  {
+   "uf": "MG",
+   "regiao": "Sudeste",
+   "pontos": 37.9,
+   "ano": 2026,
+   "fonte": "imd2026"
+  },
+  {
+   "uf": "MS",
+   "regiao": "Centro-Oeste",
+   "pontos": 38.3,
+   "ano": 2026,
+   "fonte": "imd2026"
+  },
+  {
+   "uf": "SC",
+   "regiao": "Sul",
+   "pontos": 38.3,
+   "ano": 2026,
+   "fonte": "imd2026"
+  },
+  {
+   "uf": "AL",
+   "regiao": "Nordeste",
+   "pontos": 38.6,
+   "ano": 2026,
+   "fonte": "imd2026"
+  },
+  {
+   "uf": "AP",
+   "regiao": "Norte",
+   "pontos": 38.7,
+   "ano": 2026,
+   "fonte": "imd2026"
+  },
+  {
+   "uf": "TO",
+   "regiao": "Norte",
+   "pontos": 39.0,
+   "ano": 2026,
+   "fonte": "imd2026"
+  },
+  {
+   "uf": "RO",
+   "regiao": "Norte",
+   "pontos": 39.0,
+   "ano": 2026,
+   "fonte": "imd2026"
+  },
+  {
+   "uf": "MA",
+   "regiao": "Nordeste",
+   "pontos": 39.0,
+   "ano": 2026,
+   "fonte": "imd2026"
+  },
+  {
+   "uf": "CE",
+   "regiao": "Nordeste",
+   "pontos": 39.0,
+   "ano": 2026,
+   "fonte": "imd2026"
+  },
+  {
+   "uf": "GO",
+   "regiao": "Centro-Oeste",
+   "pontos": 39.5,
+   "ano": 2026,
+   "fonte": "imd2026"
+  },
+  {
+   "uf": "SE",
+   "regiao": "Nordeste",
+   "pontos": 39.7,
+   "ano": 2026,
+   "fonte": "imd2026"
+  },
+  {
+   "uf": "PR",
+   "regiao": "Sul",
+   "pontos": 39.8,
+   "ano": 2026,
+   "fonte": "imd2026"
+  },
+  {
+   "uf": "SP",
+   "regiao": "Sudeste",
+   "pontos": 40.1,
+   "ano": 2026,
+   "fonte": "imd2026"
+  },
+  {
+   "uf": "AM",
+   "regiao": "Norte",
+   "pontos": 40.8,
+   "ano": 2026,
+   "fonte": "imd2026"
+  },
+  {
+   "uf": "RN",
+   "regiao": "Nordeste",
+   "pontos": 42.4,
+   "ano": 2026,
+   "fonte": "imd2026"
+  }
+ ],
+ "imd_perfil": [
+  {
+   "dimensao": "sexo",
+   "grupo": "Feminino",
+   "pontos": 39,
+   "ano": 2026,
+   "fonte": "imd2026"
+  },
+  {
+   "dimensao": "sexo",
+   "grupo": "Masculino",
+   "pontos": 38,
+   "ano": 2026,
+   "fonte": "imd2026"
+  },
+  {
+   "dimensao": "idade",
+   "grupo": "Até 34 anos",
+   "pontos": 44,
+   "ano": 2026,
+   "fonte": "imd2026"
+  },
+  {
+   "dimensao": "idade",
+   "grupo": "65 anos ou mais",
+   "pontos": 37,
+   "ano": 2026,
+   "fonte": "imd2026"
+  },
+  {
+   "dimensao": "escolaridade",
+   "grupo": "Pós-graduação",
+   "pontos": 45,
+   "ano": 2026,
+   "fonte": "imd2026"
+  },
+  {
+   "dimensao": "escolaridade",
+   "grupo": "Até fundamental",
+   "pontos": 35,
+   "ano": 2026,
+   "fonte": "imd2026"
+  }
+ ],
+ "ia_porte": [
+  {
+   "porte": "MEI",
+   "familiarizado": 87,
+   "usa": 42,
+   "usa_pouco_ou_frequente": 48,
+   "finalidade_principal": "Marketing e divulgação",
+   "finalidade_valor": 74,
+   "fonte": "ia2025"
+  },
+  {
+   "porte": "MPE",
+   "familiarizado": 96,
+   "usa": 46,
+   "usa_pouco_ou_frequente": 70,
+   "finalidade_principal": "Marketing e divulgação",
+   "finalidade_valor": 59,
+   "fonte": "ia2025"
+  },
+  {
+   "porte": "Médias e Grandes",
+   "familiarizado": 99,
+   "usa": 63,
+   "usa_pouco_ou_frequente": 83,
+   "finalidade_principal": "Análise de dados",
+   "finalidade_valor": 67,
+   "fonte": "ia2025"
+  }
+ ],
+ "operacao": [
+  {
+   "grupo": "PN",
+   "modelo": "Apenas ponto físico",
+   "valor": 42.7,
+   "fonte": "persp2026"
+  },
+  {
+   "grupo": "PN",
+   "modelo": "Físico e online",
+   "valor": 38.5,
+   "fonte": "persp2026"
+  },
+  {
+   "grupo": "PN",
+   "modelo": "Apenas online",
+   "valor": 11.8,
+   "fonte": "persp2026"
+  },
+  {
+   "grupo": "PN",
+   "modelo": "Não sabe/NA",
+   "valor": 7.0,
+   "fonte": "persp2026"
+  },
+  {
+   "grupo": "Médias e Grandes",
+   "modelo": "Apenas ponto físico",
+   "valor": 44.7,
+   "fonte": "persp2026"
+  },
+  {
+   "grupo": "Médias e Grandes",
+   "modelo": "Físico e online",
+   "valor": 45.3,
+   "fonte": "persp2026"
+  },
+  {
+   "grupo": "Médias e Grandes",
+   "modelo": "Apenas online",
+   "valor": 9.5,
+   "fonte": "persp2026"
+  },
+  {
+   "grupo": "Médias e Grandes",
+   "modelo": "Não sabe/NA",
+   "valor": 0.5,
+   "fonte": "persp2026"
+  }
+ ],
+ "indicadores": [
+  {
+   "id": "vende_online",
+   "tema": "Canais",
+   "indicador": "Pequenos negócios que vendem por redes, app ou internet",
+   "valor": 73,
+   "unidade": "%",
+   "porte": "PN",
+   "recorte": "Brasil",
+   "referencia": "mar/2026",
+   "fonte": "pulso12"
+  },
+  {
+   "id": "vende_online_mei",
+   "tema": "Canais",
+   "indicador": "MEI que vendem por redes, app ou internet",
+   "valor": 75,
+   "unidade": "%",
+   "porte": "MEI",
+   "recorte": "Brasil",
+   "referencia": "mar/2026",
+   "fonte": "pulso12"
+  },
+  {
+   "id": "whatsapp",
+   "tema": "Canais",
+   "indicador": "Dos que vendem online, vendem pelo WhatsApp",
+   "valor": 82,
+   "unidade": "%",
+   "porte": "PN",
+   "recorte": "Brasil",
+   "referencia": "mar/2026",
+   "fonte": "ds_serie"
+  },
+  {
+   "id": "instagram",
+   "tema": "Canais",
+   "indicador": "Dos que vendem online, vendem pelo Instagram",
+   "valor": 57,
+   "unidade": "%",
+   "porte": "PN",
+   "recorte": "Brasil",
+   "referencia": "mar/2026",
+   "fonte": "ds_serie"
+  },
+  {
+   "id": "facebook",
+   "tema": "Canais",
+   "indicador": "Dos que vendem online, vendem pelo Facebook",
+   "valor": 30,
+   "unidade": "%",
+   "porte": "PN",
+   "recorte": "Brasil",
+   "referencia": "mar/2026",
+   "fonte": "ds_serie"
+  },
+  {
+   "id": "perfil_redes",
+   "tema": "Presença",
+   "indicador": "Têm perfil/página em redes sociais",
+   "valor": 73,
+   "unidade": "%",
+   "porte": "PN",
+   "recorte": "Brasil",
+   "referencia": "2023",
+   "fonte": "td2023"
+  },
+  {
+   "id": "perfil_instagram",
+   "tema": "Presença",
+   "indicador": "Têm perfil no Instagram",
+   "valor": 64,
+   "unidade": "%",
+   "porte": "PN",
+   "recorte": "Brasil",
+   "referencia": "2023",
+   "fonte": "td2023"
+  },
+  {
+   "id": "perfil_facebook",
+   "tema": "Presença",
+   "indicador": "Têm perfil no Facebook",
+   "valor": 41,
+   "unidade": "%",
+   "porte": "PN",
+   "recorte": "Brasil",
+   "referencia": "2023",
+   "fonte": "td2023"
+  },
+  {
+   "id": "site_proprio",
+   "tema": "Presença",
+   "indicador": "Têm site próprio",
+   "valor": 10,
+   "unidade": "%",
+   "porte": "PN",
+   "recorte": "Brasil",
+   "referencia": "2023",
+   "fonte": "td2023"
+  },
+  {
+   "id": "catalogo",
+   "tema": "Presença",
+   "indicador": "Exibem catálogo de produtos/serviços na página",
+   "valor": 50,
+   "unidade": "%",
+   "porte": "PN",
+   "recorte": "Brasil",
+   "referencia": "2023",
+   "fonte": "td2023"
+  },
+  {
+   "id": "beleza",
+   "tema": "Setores",
+   "indicador": "Setor de beleza com presença em redes",
+   "valor": 83,
+   "unidade": "%",
+   "porte": "PN",
+   "recorte": "Beleza",
+   "referencia": "2023",
+   "fonte": "td2023"
+  },
+  {
+   "id": "alimenticia",
+   "tema": "Setores",
+   "indicador": "Indústria alimentícia com presença em redes",
+   "valor": 82,
+   "unidade": "%",
+   "porte": "PN",
+   "recorte": "Alimentícia",
+   "referencia": "2023",
+   "fonte": "td2023"
+  },
+  {
+   "id": "eco_criativa",
+   "tema": "Setores",
+   "indicador": "Economia criativa com presença em redes",
+   "valor": 79,
+   "unidade": "%",
+   "porte": "PN",
+   "recorte": "Economia criativa",
+   "referencia": "2023",
+   "fonte": "td2023"
+  },
+  {
+   "id": "pix",
+   "tema": "Pagamentos",
+   "indicador": "Aceitam Pix",
+   "valor": 84,
+   "unidade": "%",
+   "porte": "PN",
+   "recorte": "Brasil",
+   "referencia": "2022",
+   "fonte": "td2022"
+  },
+  {
+   "id": "dinheiro",
+   "tema": "Pagamentos",
+   "indicador": "Aceitam dinheiro",
+   "valor": 73,
+   "unidade": "%",
+   "porte": "PN",
+   "recorte": "Brasil",
+   "referencia": "2022",
+   "fonte": "td2022"
+  },
+  {
+   "id": "cartao",
+   "tema": "Pagamentos",
+   "indicador": "Aceitam cartão (crédito ou débito)",
+   "valor": 61,
+   "unidade": "%",
+   "porte": "PN",
+   "recorte": "Brasil",
+   "referencia": "2022",
+   "fonte": "td2022"
+  },
+  {
+   "id": "software_gestao",
+   "tema": "Tecnologia",
+   "indicador": "Usam software de gestão",
+   "valor": 50,
+   "unidade": "%",
+   "porte": "PN",
+   "recorte": "Brasil",
+   "referencia": "2022",
+   "fonte": "td2022"
+  },
+  {
+   "id": "pandemia",
+   "tema": "Contexto",
+   "indicador": "Concordam que a pandemia acelerou as vendas digitais",
+   "valor": 65,
+   "unidade": "%",
+   "porte": "PN",
+   "recorte": "Brasil",
+   "referencia": "2022",
+   "fonte": "td2022"
+  },
+  {
+   "id": "computador",
+   "tema": "Tecnologia",
+   "indicador": "Usam computador no negócio",
+   "valor": 76,
+   "unidade": "%",
+   "porte": "PN",
+   "recorte": "Brasil",
+   "referencia": "2025",
+   "fonte": "td2025"
+  },
+  {
+   "id": "computador_mei",
+   "tema": "Tecnologia",
+   "indicador": "Usam computador no negócio",
+   "valor": 62,
+   "unidade": "%",
+   "porte": "MEI",
+   "recorte": "Brasil",
+   "referencia": "2025",
+   "fonte": "td2025"
+  },
+  {
+   "id": "computador_me",
+   "tema": "Tecnologia",
+   "indicador": "Usam computador no negócio",
+   "valor": 92,
+   "unidade": "%",
+   "porte": "ME",
+   "recorte": "Brasil",
+   "referencia": "2025",
+   "fonte": "td2025"
+  },
+  {
+   "id": "computador_epp",
+   "tema": "Tecnologia",
+   "indicador": "Usam computador no negócio",
+   "valor": 96,
+   "unidade": "%",
+   "porte": "EPP",
+   "recorte": "Brasil",
+   "referencia": "2025",
+   "fonte": "td2025"
+  },
+  {
+   "id": "computador_mulher",
+   "tema": "Mulheres",
+   "indicador": "Mulheres empreendedoras que usam computador",
+   "valor": 75,
+   "unidade": "%",
+   "porte": "PN",
+   "recorte": "Feminino",
+   "referencia": "2025",
+   "fonte": "td2025"
+  },
+  {
+   "id": "computador_homem",
+   "tema": "Mulheres",
+   "indicador": "Homens empreendedores que usam computador",
+   "valor": 77,
+   "unidade": "%",
+   "porte": "PN",
+   "recorte": "Masculino",
+   "referencia": "2025",
+   "fonte": "td2025"
+  },
+  {
+   "id": "computador_2026",
+   "tema": "Tecnologia",
+   "indicador": "Usam computador no negócio",
+   "valor": 75,
+   "unidade": "%",
+   "porte": "PN",
+   "recorte": "Brasil",
+   "referencia": "2026",
+   "fonte": "td2026"
+  },
+  {
+   "id": "internet",
+   "tema": "Tecnologia",
+   "indicador": "Usam internet (conexão própria ou de terceiros)",
+   "valor": 98,
+   "unidade": "%",
+   "porte": "PN",
+   "recorte": "Brasil",
+   "referencia": "2025",
+   "fonte": "td2025"
+  },
+  {
+   "id": "apps_integrativos",
+   "tema": "Tecnologia",
+   "indicador": "Usam apps/softwares integrativos de gestão",
+   "valor": 47,
+   "unidade": "%",
+   "porte": "PN",
+   "recorte": "Brasil",
+   "referencia": "2025",
+   "fonte": "td2025"
+  },
+  {
+   "id": "apps_integrativos_2018",
+   "tema": "Tecnologia",
+   "indicador": "Usam apps/softwares integrativos de gestão",
+   "valor": 27,
+   "unidade": "%",
+   "porte": "PN",
+   "recorte": "Brasil",
+   "referencia": "2018",
+   "fonte": "td2025"
+  },
+  {
+   "id": "ia_pn",
+   "tema": "IA",
+   "indicador": "Pequenos negócios que já usam IA no dia a dia",
+   "valor": 44,
+   "unidade": "%",
+   "porte": "PN",
+   "recorte": "Brasil",
+   "referencia": "2025",
+   "fonte": "datasebrae_td"
+  },
+  {
+   "id": "ia_mei",
+   "tema": "IA",
+   "indicador": "Usam IA no negócio",
+   "valor": 42,
+   "unidade": "%",
+   "porte": "MEI",
+   "recorte": "Brasil",
+   "referencia": "set/2025",
+   "fonte": "ia2025"
+  },
+  {
+   "id": "ia_mpe",
+   "tema": "IA",
+   "indicador": "Usam IA no negócio",
+   "valor": 46,
+   "unidade": "%",
+   "porte": "MPE",
+   "recorte": "Brasil",
+   "referencia": "set/2025",
+   "fonte": "ia2025"
+  },
+  {
+   "id": "ia_mge",
+   "tema": "IA",
+   "indicador": "Usam IA no negócio",
+   "valor": 63,
+   "unidade": "%",
+   "porte": "Médias e Grandes",
+   "recorte": "Brasil",
+   "referencia": "set/2025",
+   "fonte": "ia2025"
+  },
+  {
+   "id": "imd",
+   "tema": "Maturidade",
+   "indicador": "Índice de Maturidade Digital (0–80)",
+   "valor": 39,
+   "unidade": "pts",
+   "porte": "PN",
+   "recorte": "Brasil",
+   "referencia": "2026",
+   "fonte": "imd2026"
+  },
+  {
+   "id": "imd_ma",
+   "tema": "Maturidade",
+   "indicador": "Índice de Maturidade Digital (0–80)",
+   "valor": 39.0,
+   "unidade": "pts",
+   "porte": "PN",
+   "recorte": "Maranhão",
+   "referencia": "2026",
+   "fonte": "imd2026"
+  },
+  {
+   "id": "imd_mulher",
+   "tema": "Mulheres",
+   "indicador": "IMD das empreendedoras (0–80)",
+   "valor": 39,
+   "unidade": "pts",
+   "porte": "PN",
+   "recorte": "Feminino",
+   "referencia": "2026",
+   "fonte": "imd2026"
+  },
+  {
+   "id": "imd_homem",
+   "tema": "Mulheres",
+   "indicador": "IMD dos empreendedores (0–80)",
+   "valor": 38,
+   "unidade": "pts",
+   "porte": "PN",
+   "recorte": "Masculino",
+   "referencia": "2026",
+   "fonte": "imd2026"
+  },
+  {
+   "id": "investir_digital",
+   "tema": "Perspectivas",
+   "indicador": "Pretendem investir em digitalização nos próximos 6 meses",
+   "valor": 34.3,
+   "unidade": "%",
+   "porte": "PN",
+   "recorte": "Brasil",
+   "referencia": "mar/2026",
+   "fonte": "persp2026"
+  },
+  {
+   "id": "prioridade_mkt",
+   "tema": "Perspectivas",
+   "indicador": "Prioridade de investimento: marketing e vendas",
+   "valor": 37.8,
+   "unidade": "%",
+   "porte": "PN",
+   "recorte": "Brasil",
+   "referencia": "mar/2026",
+   "fonte": "persp2026"
+  },
+  {
+   "id": "tudo_em_um_vendas",
+   "tema": "Perspectivas",
+   "indicador": "Querem que uma ferramenta 'tudo em um' aumente as vendas",
+   "valor": 54.2,
+   "unidade": "%",
+   "porte": "PN",
+   "recorte": "Brasil",
+   "referencia": "mar/2026",
+   "fonte": "persp2026"
+  },
+  {
+   "id": "mulheres_donas",
+   "tema": "Mulheres",
+   "indicador": "Mulheres donas de pequenos negócios",
+   "valor": 10.3,
+   "unidade": "milhões",
+   "porte": "PN",
+   "recorte": "Feminino",
+   "referencia": "2025",
+   "fonte": "mulheres2026"
+  },
+  {
+   "id": "mulheres_cresc",
+   "tema": "Mulheres",
+   "indicador": "Crescimento do nº de donas de negócio em 10 anos",
+   "valor": 27,
+   "unidade": "%",
+   "porte": "PN",
+   "recorte": "Feminino",
+   "referencia": "2015–2025",
+   "fonte": "mulheres2026"
+  },
+  {
+   "id": "homens_cresc",
+   "tema": "Mulheres",
+   "indicador": "Crescimento do nº de donos de negócio em 10 anos",
+   "valor": 11,
+   "unidade": "%",
+   "porte": "PN",
+   "recorte": "Masculino",
+   "referencia": "2015–2025",
+   "fonte": "mulheres2026"
+  },
+  {
+   "id": "mulheres_cnpj",
+   "tema": "Mulheres",
+   "indicador": "Novos CNPJs (MEI e MPE) abertos por mulheres",
+   "valor": 42,
+   "unidade": "%",
+   "porte": "PN",
+   "recorte": "Feminino",
+   "referencia": "2025",
+   "fonte": "mulheres2026"
+  },
+  {
+   "id": "mulheres_formal",
+   "tema": "Mulheres",
+   "indicador": "Empreendedoras com CNPJ (formalizadas)",
+   "valor": 37,
+   "unidade": "%",
+   "porte": "PN",
+   "recorte": "Feminino",
+   "referencia": "2025",
+   "fonte": "mulheres2026"
+  }
+ ]
+}

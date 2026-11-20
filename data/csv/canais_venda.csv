@@ -1,0 +1,45 @@
+canal,tipo,data,valor,fonte
+WhatsApp,rede,2021-11,84,ds_serie
+WhatsApp,rede,2023-01,82,ds_serie
+WhatsApp,rede,2024-11,81,ds_serie
+WhatsApp,rede,2026-03,82,ds_serie
+Instagram,rede,2021-11,51,ds_serie
+Instagram,rede,2023-01,57,ds_serie
+Instagram,rede,2024-11,60,ds_serie
+Instagram,rede,2026-03,57,ds_serie
+Facebook,rede,2021-11,42,ds_serie
+Facebook,rede,2023-01,40,ds_serie
+Facebook,rede,2024-11,34,ds_serie
+Facebook,rede,2026-03,30,ds_serie
+Loja virtual própria,loja,2021-11,14,ds_serie
+Loja virtual própria,loja,2023-01,11,ds_serie
+Loja virtual própria,loja,2024-11,13,ds_serie
+Loja virtual própria,loja,2026-03,10,ds_serie
+Mercado Livre,marketplace,2021-11,7,ds_serie
+Mercado Livre,marketplace,2023-01,6,ds_serie
+Mercado Livre,marketplace,2024-11,8,ds_serie
+Mercado Livre,marketplace,2026-03,7,ds_serie
+Apps de entrega/serviços,app,2021-11,6,ds_serie
+Apps de entrega/serviços,app,2023-01,7,ds_serie
+Apps de entrega/serviços,app,2024-11,6,ds_serie
+Apps de entrega/serviços,app,2026-03,7,ds_serie
+OLX,marketplace,2021-11,5,ds_serie
+OLX,marketplace,2023-01,4,ds_serie
+OLX,marketplace,2024-11,4,ds_serie
+OLX,marketplace,2026-03,3,ds_serie
+Magalu,marketplace,2021-11,3,ds_serie
+Magalu,marketplace,2023-01,2,ds_serie
+Magalu,marketplace,2024-11,3,ds_serie
+Magalu,marketplace,2026-03,1,ds_serie
+Amazon,marketplace,2021-11,1,ds_serie
+Amazon,marketplace,2023-01,1,ds_serie
+Amazon,marketplace,2024-11,2,ds_serie
+Amazon,marketplace,2026-03,1,ds_serie
+Americanas,marketplace,2021-11,1,ds_serie
+Americanas,marketplace,2023-01,1,ds_serie
+Americanas,marketplace,2024-11,1,ds_serie
+Americanas,marketplace,2026-03,0,ds_serie
+Nenhum dos citados,nenhum,2021-11,10,ds_serie
+Nenhum dos citados,nenhum,2023-01,6,ds_serie
+Nenhum dos citados,nenhum,2024-11,7,ds_serie
+Nenhum dos citados,nenhum,2026-03,6,ds_serie

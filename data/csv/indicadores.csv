@@ -1,0 +1,45 @@
+id,tema,indicador,valor,unidade,porte,recorte,referencia,fonte
+vende_online,Canais,"Pequenos negócios que vendem por redes, app ou internet",73,%,PN,Brasil,mar/2026,pulso12
+vende_online_mei,Canais,"MEI que vendem por redes, app ou internet",75,%,MEI,Brasil,mar/2026,pulso12
+whatsapp,Canais,"Dos que vendem online, vendem pelo WhatsApp",82,%,PN,Brasil,mar/2026,ds_serie
+instagram,Canais,"Dos que vendem online, vendem pelo Instagram",57,%,PN,Brasil,mar/2026,ds_serie
+facebook,Canais,"Dos que vendem online, vendem pelo Facebook",30,%,PN,Brasil,mar/2026,ds_serie
+perfil_redes,Presença,Têm perfil/página em redes sociais,73,%,PN,Brasil,2023,td2023
+perfil_instagram,Presença,Têm perfil no Instagram,64,%,PN,Brasil,2023,td2023
+perfil_facebook,Presença,Têm perfil no Facebook,41,%,PN,Brasil,2023,td2023
+site_proprio,Presença,Têm site próprio,10,%,PN,Brasil,2023,td2023
+catalogo,Presença,Exibem catálogo de produtos/serviços na página,50,%,PN,Brasil,2023,td2023
+beleza,Setores,Setor de beleza com presença em redes,83,%,PN,Beleza,2023,td2023
+alimenticia,Setores,Indústria alimentícia com presença em redes,82,%,PN,Alimentícia,2023,td2023
+eco_criativa,Setores,Economia criativa com presença em redes,79,%,PN,Economia criativa,2023,td2023
+pix,Pagamentos,Aceitam Pix,84,%,PN,Brasil,2022,td2022
+dinheiro,Pagamentos,Aceitam dinheiro,73,%,PN,Brasil,2022,td2022
+cartao,Pagamentos,Aceitam cartão (crédito ou débito),61,%,PN,Brasil,2022,td2022
+software_gestao,Tecnologia,Usam software de gestão,50,%,PN,Brasil,2022,td2022
+pandemia,Contexto,Concordam que a pandemia acelerou as vendas digitais,65,%,PN,Brasil,2022,td2022
+computador,Tecnologia,Usam computador no negócio,76,%,PN,Brasil,2025,td2025
+computador_mei,Tecnologia,Usam computador no negócio,62,%,MEI,Brasil,2025,td2025
+computador_me,Tecnologia,Usam computador no negócio,92,%,ME,Brasil,2025,td2025
+computador_epp,Tecnologia,Usam computador no negócio,96,%,EPP,Brasil,2025,td2025
+computador_mulher,Mulheres,Mulheres empreendedoras que usam computador,75,%,PN,Feminino,2025,td2025
+computador_homem,Mulheres,Homens empreendedores que usam computador,77,%,PN,Masculino,2025,td2025
+computador_2026,Tecnologia,Usam computador no negócio,75,%,PN,Brasil,2026,td2026
+internet,Tecnologia,Usam internet (conexão própria ou de terceiros),98,%,PN,Brasil,2025,td2025
+apps_integrativos,Tecnologia,Usam apps/softwares integrativos de gestão,47,%,PN,Brasil,2025,td2025
+apps_integrativos_2018,Tecnologia,Usam apps/softwares integrativos de gestão,27,%,PN,Brasil,2018,td2025
+ia_pn,IA,Pequenos negócios que já usam IA no dia a dia,44,%,PN,Brasil,2025,datasebrae_td
+ia_mei,IA,Usam IA no negócio,42,%,MEI,Brasil,set/2025,ia2025
+ia_mpe,IA,Usam IA no negócio,46,%,MPE,Brasil,set/2025,ia2025
+ia_mge,IA,Usam IA no negócio,63,%,Médias e Grandes,Brasil,set/2025,ia2025
+imd,Maturidade,Índice de Maturidade Digital (0–80),39,pts,PN,Brasil,2026,imd2026
+imd_ma,Maturidade,Índice de Maturidade Digital (0–80),39.0,pts,PN,Maranhão,2026,imd2026
+imd_mulher,Mulheres,IMD das empreendedoras (0–80),39,pts,PN,Feminino,2026,imd2026
+imd_homem,Mulheres,IMD dos empreendedores (0–80),38,pts,PN,Masculino,2026,imd2026
+investir_digital,Perspectivas,Pretendem investir em digitalização nos próximos 6 meses,34.3,%,PN,Brasil,mar/2026,persp2026
+prioridade_mkt,Perspectivas,Prioridade de investimento: marketing e vendas,37.8,%,PN,Brasil,mar/2026,persp2026
+tudo_em_um_vendas,Perspectivas,Querem que uma ferramenta 'tudo em um' aumente as vendas,54.2,%,PN,Brasil,mar/2026,persp2026
+mulheres_donas,Mulheres,Mulheres donas de pequenos negócios,10.3,milhões,PN,Feminino,2025,mulheres2026
+mulheres_cresc,Mulheres,Crescimento do nº de donas de negócio em 10 anos,27,%,PN,Feminino,2015–2025,mulheres2026
+homens_cresc,Mulheres,Crescimento do nº de donos de negócio em 10 anos,11,%,PN,Masculino,2015–2025,mulheres2026
+mulheres_cnpj,Mulheres,Novos CNPJs (MEI e MPE) abertos por mulheres,42,%,PN,Feminino,2025,mulheres2026
+mulheres_formal,Mulheres,Empreendedoras com CNPJ (formalizadas),37,%,PN,Feminino,2025,mulheres2026

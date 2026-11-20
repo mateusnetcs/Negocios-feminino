@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Empreendedorismo Digital — Dashboard</title>
+  <meta name="description" content="Dashboard interativo com dados oficiais do Sebrae/DataSebrae sobre empreendedorismo digital e negócios liderados por mulheres.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/vendor/echarts.min.js"></script>
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <div>
+        <strong>Empreendedorismo Digital</strong>
+        <small>Pequenos negócios no Brasil · dados oficiais Sebrae/DataSebrae</small>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="#visao">Visão geral</a>
+      <a href="#canais">Canais</a>
+      <a href="#maturidade">Maturidade</a>
+      <a href="#mulheres">Mulheres</a>
+      <a href="#dados">Dados</a>
+      <a href="#banner">Banner</a>
+    </nav>
+    <div class="actions">
+      <button class="btn ghost" id="btn-theme" type="button" aria-label="Alternar tema">◐</button>
+      <button class="btn" id="btn-print" type="button">Imprimir</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero" id="visao">
+    <div>
+      <p class="eyebrow">IX SAPIENS · UEMASUL · Iniciação Científica 2025/2026</p>
+      <h1>Como os pequenos negócios brasileiros vendem, se digitalizam e amadurecem</h1>
+      <p class="lead">Clique nas barras, linhas e chips. Todos os gráficos respondem ao mesmo filtro. Cada número traz a pesquisa de origem.</p>
+    </div>
+  </section>
+
+  <!-- Filtros globais -->
+  <section class="filters" aria-label="Filtros">
+    <div class="filter-group">
+      <span class="filter-label">Porte</span>
+      <div class="chips" id="f-porte"></div>
+    </div>
+    <div class="filter-group">
+      <span class="filter-label">Edição dos canais</span>
+      <div class="chips" id="f-edicao"></div>
+    </div>
+    <div class="filter-group">
+      <span class="filter-label">Região (IMD)</span>
+      <div class="chips" id="f-regiao"></div>
+    </div>
+    <div class="active" id="active-filters" aria-live="polite"></div>
+  </section>
+
+  <!-- KPIs -->
+  <section class="kpis" id="kpis"></section>
+
+  <!-- Canais -->
+  <section class="section" id="canais">
+    <div class="section-head">
+      <h2>Vendas por canais digitais</h2>
+      <p>Clique em um ponto da série para escolher a edição. Clique em um canal para ver a trajetória dele.</p>
+    </div>
+    <div class="grid g-2">
+      <article class="card">
+        <header><h3>% dos pequenos negócios que vendem online</h3><span class="tag">2020–2026</span></header>
+        <div class="chart" id="c-serie"></div>
+        <footer class="src" data-src="ds_serie"></footer>
+      </article>
+      <article class="card">
+        <header><h3 id="t-canais">Dos que vendem online, % que usa cada canal</h3><span class="tag" id="tag-edicao"></span></header>
+        <div class="chart" id="c-canais"></div>
+        <footer class="src">Múltipla escolha: cada negócio pode marcar mais de um canal, por isso a soma passa de 100%. <span data-src="ds_serie"></span></footer>
+      </article>
+      <article class="card span-2">
+        <header><h3 id="t-traj">Trajetória dos canais entre as edições</h3><span class="tag">nov/21 → mar/26</span></header>
+        <div class="chart tall" id="c-traj"></div>
+        <footer class="src">Facebook perdeu 12 p.p. desde 2021, enquanto o Instagram ganhou espaço. <span data-src="ds_serie"></span></footer>
+      </article>
+    </div>
+  </section>
+
+  <!-- Maturidade -->
+  <section class="section" id="maturidade">
+    <div class="section-head">
+      <h2>Maturidade digital e tecnologia</h2>
+      <p>Clique em uma barra de porte para filtrar o painel inteiro. Clique em um estado para ver o detalhe.</p>
+    </div>
+    <div class="grid g-2">
+      <article class="card">
+        <header><h3>Índice de Maturidade Digital por porte</h3><span class="tag">0–80 pontos</span></header>
+        <div class="chart" id="c-imd-porte"></div>
+        <footer class="src" data-src="imd2026"></footer>
+      </article>
+      <article class="card">
+        <header><h3>Uso de inteligência artificial por porte</h3><span class="tag">set/2025</span></header>
+        <div class="chart" id="c-ia"></div>
+        <footer class="src" data-src="ia2025"></footer>
+      </article>
+      <article class="card span-2">
+        <header><h3>IMD por estado (2026)</h3><span class="tag" id="uf-detail">Brasil: 39 pts · Maranhão: 39,0 pts</span></header>
+        <div class="chart tall" id="c-uf"></div>
+        <footer class="src" data-src="imd2026"></footer>
+      </article>
+      <article class="card">
+        <header><h3>Como o negócio opera</h3><span class="tag">mar/2026</span></header>
+        <div class="chart short" id="c-operacao"></div>
+        <footer class="src" data-src="persp2026"></footer>
+      </article>
+      <article class="card">
+        <header><h3>Uso de computador no negócio</h3><span class="tag">2025</span></header>
+        <div class="chart short" id="c-computador"></div>
+        <footer class="src" data-src="td2025"></footer>
+      </article>
+    </div>
+  </section>
+
+  <!-- Mulheres -->
+  <section class="section" id="mulheres">
+    <div class="section-head">
+      <h2>Mulheres à frente dos pequenos negócios</h2>
+      <p>Recorte de gênero ligado ao tema da pesquisa: tecnologias digitais e empoderamento feminino na gestão.</p>
+    </div>
+    <div class="women">
+      <div class="women-hero">
+        <span class="big">10,3 mi</span>
+        <span>mulheres donas de pequenos negócios, recorde da série</span>
+        <small data-src="mulheres2026"></small>
+      </div>
+      <div class="women-stats" id="women-stats"></div>
+      <article class="card">
+        <header><h3>Mulheres x homens</h3><span class="tag">indicadores comparáveis</span></header>
+        <div class="chart" id="c-genero"></div>
+        <footer class="src"><span data-src="imd2026"></span> <span data-src="td2025"></span> <span data-src="mulheres2026"></span></footer>
+      </article>
+    </div>
+  </section>
+
+  <!-- Dados -->
+  <section class="section" id="dados">
+    <div class="section-head">
+      <h2>Explorador de dados</h2>
+      <p>Base padronizada com todos os indicadores. O filtro de porte também se aplica aqui.</p>
+    </div>
+    <div class="card">
+      <div class="table-tools">
+        <input type="search" id="q" placeholder="Buscar indicador, tema, fonte…" aria-label="Buscar">
+        <div class="chips" id="f-tema"></div>
+        <div class="downloads">
+          <a class="btn ghost" href="data/dados.json" download>JSON</a>
+          <a class="btn ghost" href="data/csv/indicadores.csv" download>CSV</a>
+          <a class="btn ghost" href="database/schema.sql" download>SQL</a>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table id="tbl">
+          <thead><tr><th>Tema</th><th>Indicador</th><th class="num">Valor</th><th>Porte</th><th>Recorte</th><th>Ref.</th><th>Fonte</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Literatura -->
+  <section class="section">
+    <div class="section-head"><h2>Literatura acadêmica</h2></div>
+    <div class="grid g-3 lit">
+      <article class="card"><h3>Conceito fragmentado</h3><p>A definição de empreendedorismo digital ainda é fragmentada: negócios digitais, plataformas e formas digitais de operar.</p><footer class="src" data-src="martins2024"></footer></article>
+      <article class="card"><h3>Maturidade das MPEs</h3><p>A maturidade digital de micro e pequenas empresas em mercados emergentes ainda é baixa e desigual.</p><footer class="src" data-src="costa2022"></footer></article>
+      <article class="card"><h3>Lacunas de pesquisa</h3><p>Os estudos são dispersos. Pesquisas que conectam dados de mercado (Sebrae) à prática dos empresários são pertinentes.</p><footer class="src" data-src="martins2024"></footer></article>
+    </div>
+  </section>
+
+  <!-- Banner -->
+  <section class="section" id="banner">
+    <div class="section-head">
+      <h2>Banner IX SAPIENS</h2>
+      <p>Versão final do banner (90 × 120 cm), montada com os dados verificados deste painel.</p>
+    </div>
+    <div class="banner-box card">
+      <a href="banner/Banner_SAPIENS.pdf" target="_blank" rel="noopener"><img src="banner/Banner_SAPIENS.png" alt="Prévia do banner IX SAPIENS com introdução, métodos, gráficos de vendas online e canais, conclusões e referências" loading="lazy"></a>
+      <div class="banner-info">
+        <h3>Arquivos</h3>
+        <ul>
+          <li><a href="banner/Banner_SAPIENS.pptx" download>Banner editável (.pptx)</a></li>
+          <li><a href="banner/Banner_SAPIENS.pdf" target="_blank" rel="noopener">Prévia em PDF</a></li>
+          <li><a href="banner/Template_Banner.pptx" download>Modelo original (.pptx)</a></li>
+        </ul>
+        <p class="muted">O texto segue o padrão do modelo (Calibri, 54 pt; títulos de seção em 60 pt). O cabeçalho fica para os autores preencherem.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="fontes">
+    <div class="section-head"><h2>Fontes</h2></div>
+    <ol class="sources" id="sources"></ol>
+  </section>
+</main>
+
+<footer class="foot wrap">
+  <span>Dados atualizados em <b id="upd"></b>. Base aberta em <a href="https://github.com/mateusnetcs/Negocios-feminino">GitHub</a>.</span>
+</footer>
+
+<div class="tooltip-note" id="toast" role="status"></div>
+<script src="assets/app.js"></script>
+</body>
+</html>
