@@ -169,5 +169,22 @@ set_paras(refs, [
     "SEBRAE. Maturidade Digital dos PN (IMD). 2026.",
 ])
 
+# QR code para o dashboard: espaço livre à direita do logo, sem cobrir conteúdo
+import os
+QR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "qr_site.png")
+URL = "https://mateusnetcs.github.io/Negocios-feminino/"
+QX, QY, QS = 71.8, 8.6, 9.6
+pic = s.shapes.add_picture(QR, Cm(QX), Cm(QY), Cm(QS), Cm(QS))
+pic.name = "QR Code dashboard"
+pic._element.nvPicPr.cNvPr.set("descr", "QR code para o dashboard: " + URL)
+pic.click_action.hyperlink.address = URL
+cap = s.shapes.add_textbox(Cm(QX - 0.6), Cm(QY + QS + 0.1), Cm(QS + 1.2), Cm(2.6))
+cap.name = "Legenda QR"
+ctf = cap.text_frame; ctf.word_wrap = True; ctf.auto_size = MSO_AUTO_SIZE.NONE
+ctf.margin_left = ctf.margin_right = 0
+cp = ctf.paragraphs[0]; cp.alignment = PP_ALIGN.CENTER
+cr = cp.add_run(); cr.text = "Dashboard"
+cr.font.size = BODY; cr.font.bold = True; cr.font.color.rgb = NAVY
+
 prs.save(OUT)
 print("saved", OUT, "row3 at", r3)
