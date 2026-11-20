@@ -136,7 +136,8 @@
           itemStyle: { color: i === selIdx ? css("--hl") : acc, borderColor: css("--surface"), borderWidth: 2 } })),
         lineStyle: { width: 2.5, color: acc }, symbol: "circle", smooth: 0.25,
         areaStyle: { color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{ offset: 0, color: hexAlpha(acc, .22) }, { offset: 1, color: hexAlpha(acc, 0) }]) },
-        label: { show: true, formatter: (p) => ([0, 12, 16].includes(p.dataIndex) || p.dataIndex === selIdx ? `${p.value}%` : ""), position: "top", color: css("--text"), fontWeight: 700 },
+        label: { show: true, formatter: (p) => ([0, 12, 16].includes(p.dataIndex) || p.dataIndex === selIdx ? `${p.value}%` : ""), position: "top", distance: 8, color: css("--text"), fontWeight: 700 },
+        labelLayout: (p) => (p.dataIndex === 0 ? { dx: 14 } : {}),
         markArea: { silent: true, itemStyle: { color: hexAlpha(css("--s4"), .08) },
           label: { color: css("--muted"), fontSize: 11, position: "insideTop" },
           data: [[{ name: "Salto na pandemia", xAxis: "mai/20" }, { xAxis: "dez/21" }],
@@ -159,7 +160,7 @@
     const b = base();
     c.setOption({
       ...b,
-      grid: { ...b.grid, right: 44 },
+      grid: { ...b.grid, left: 20, right: 44 },
       tooltip: { ...b.tooltip, trigger: "item", formatter: (p) => `<b>${p.name}</b><br>${p.value}% dos que vendem online usam este canal (${ed.rotulo})` },
       xAxis: axis({ type: "value", max: 100, axisLabel: { show: false }, splitLine: { show: false } }),
       yAxis: axis({ type: "category", data: rows.map((r) => r.canal), axisLabel: { color: css("--text-2"), fontSize: 12 } }),
